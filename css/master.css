@@ -1,0 +1,135 @@
+body{
+	font-size:1.2em;
+	font-family: 'Averia Sans Libre', cursive;
+}
+.floatClear{
+	clear:both;
+}
+.baseWidth{
+	width:980px;
+}
+
+.alignCenter{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.grayColor{
+	/*	background-color:#747575;*/
+}
+.boxShadow{
+	-webkit-box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.87);
+}
+.error{
+	color:red;
+	display:none;
+	font-size:0.7em;
+}
+.success{
+	color:green;
+	display:none;
+	font-size:0.8em;
+}
+
+.zgHeader{
+	margin: 5px 0px;
+	height:50px;
+	text-align:center;
+	padding:5px;
+	border-radius:3px;
+	font-family: 'Freckle Face', cursive;
+	font-size:2em;
+	background-color: white;
+}
+
+.zgButton{
+	border:0;	
+	height:30px;
+	width:80px;
+	background-color:black;
+	color:white;
+	border-radius:4px;
+	border:solid thin grey;
+	float:right;
+}
+.zgDropdown{
+	display:inline-block;
+	width:212px;
+	padding:0;
+	border:0;
+	margin:0;
+}
+
+
+.zgDropdown li{
+	border:solid thin black;
+	height:20px;
+	margin: 1px;
+	border-radius:4px;
+	background-color:white;
+	cursor: pointer;
+}
+
+input.zgButton:active{
+	background-color:white;
+	color:black;
+	border:solid thin black;
+}
+
+.zgField{
+	font-size:1em;
+	border:solid thin black;
+	padding:0px 5px;
+	margin:0;
+	height:90%;
+	border-radius:4px;
+	width:200px;
+	outline-color:black;
+}
+
+
+
+.pigSection{
+	width:50%;
+	/*	height:300px;*/
+	float:left;
+	/*background-color: white*/
+}
+.pigSectionInner{
+	padding:2px;
+	height:98%;
+	width:98%;
+	margin:auto;
+	border-radius:3px;
+	background-color: white;
+}
+
+
+li{
+	padding: 5px 10px;
+	/*	text-align:center;*/
+	height:35px;
+}
+li label{
+	text-align:right;
+	display:inline-block;
+	width:200px;
+	/*	width:50%;*/
+	height:100%;
+	margin-right:10px;
+	float:left;
+}
+div.ui-datepicker{
+	font-size:14px;
+}
+
+.zgFooter{
+	margin: 5px 0px;
+	height:50px;
+	text-align:center;
+	padding:5px;
+	border-radius:3px;
+	font-family: 'Freckle Face', cursive;
+	font-size:2em;
+	background-color: white;
+}

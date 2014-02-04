@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>index</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="rakesh">
+	<!-- Date: 2014-02-03 -->
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Freckle+Face' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Averia+Sans+Libre' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.10.2.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/objects.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/validate.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+<body>
+	<div id="piggyBoss" class="baseWidth alignCenter">
+		<div id="pigHeader" class="zgHeader boxShadow">
+			<h1 id="piggy">Piggy</h1>
+		</div>
+		<div id="pigContainer" class="zgContainer">
+			<div class="pigSection" id="pigSavingDiv">
+				<div class="pigSectionInner boxShadow">
+					<h1 id="savingsHeader" class="zgHeader">Savings</h1>
+					<form id="savingsForm">
+						<ul id="savingsFormInputs">
+							<li><label for="name">Name*</label><input type="text" name="pgName" value="" id="pgNameS" class="zgField req"></li>
+							<li><label for="amount">Amount*</label><input type="text" name="pgAmount" value="" id="pgAmountS" class="zgField req"></li>
+							<li><label for="remarks">Remarks</label><input type="text" name="pgRemarks" value="" id="pgRemarksS" class="zgField"></li>
+							<li><label for="date">Date*</label><input type="text" name="pgDate" value="" id="pgDateS" class="zgField req"></li>
+							<li><label for="category">Category</label><input type="text" name="dummy" value="" class="zgField categoryField">
+								<span class="zgDropdown">
+									<ul name="category" id="pgCategoryS">
+
+									</ul>
+								</span>
+							</li>
+							<li><span class="error">* Enter required fields <span class="errorMsg"></span></span>
+								<span class="success"> ✔ Success!<span class="succMsg"></span></span>
+								<input type="button" value="Add" id="buttonAddSaving" class="zgButton"/></li>
+
+
+							</ul>
+
+						</form>
+
+					</div>
+				</div>
+				<div class="pigSection" id="pigExpenseDiv">
+					<div class="pigSectionInner boxShadow">
+						<h1 id="expenseHeader" class="zgHeader">Expense</h1>
+						<form id="expensesForm">
+							<ul id="expenseFormInputs">
+								<li><label for="name">Name</label><input type="text" name="pgName" value="" id="pgNameE" class="zgField req"></li>
+								<li><label for="amount">Amount</label><input type="text" name="pgAmount" value="" id="pgAmountE" class="zgField req"></li>
+								<li><label for="remarks">Remarks</label><input type="text" name="pgRemarks" value="" id="pgRemarksE" class="zgField"></li>
+								<li><label for="date">Date</label><input type="text" name="pgDate" value="" id="pgDateE" class="zgField req"></li>
+								<li><label for="category">Category</label><input type="text" name="dummy" value="" class="zgField categoryField">
+									<span class="zgDropdown">
+										<ul name="category" id="pgCategoryE">
+
+										</ul>
+									</span>
+								</li>
+								<li><span class="error">* Enter required fields <span class="errorMsg"></span></span>
+									<span class="success"> ✔ Success!<span class="succMsg"></span></span>
+									<input type="button" value="Add" id="buttonAddExpense" class="zgButton"/></li>
+								</ul>
+							</form>
+
+						</div>
+					</div>
+					<div class="floatClear"></div>
+					<div class></div>
+				</div>
+				<div id="pigFooter" class="zgFooter boxShadow">
+					Test
+				</div>
+			</div>
+		</body>
+		</html>
